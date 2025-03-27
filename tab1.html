@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chrome Extension Popup</title>
+		<link rel="stylesheet" href="popup.css" />
+		<script src="tab1.js" defer></script>
+		<script src="tabs.js" defer></script>
+	</head>
+	<body>
+		<div class="tabs">
+			<button id="tab1" class="tab">tab1</button>
+			<button id="tab2" class="tab">tab2</button>
+			<button id="tab3" class="tab">tab3</button>
+		</div>
+
+		<div class="container">
+			<h1>Character to ASCII Converter</h1>
+			<input
+				type="text"
+				id="charInput"
+				maxlength="1"
+				placeholder="Enter a character"
+			/>
+			<p class="result" id="asciiResult"></p>
+		</div>
+	</body>
+</html>

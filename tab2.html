@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chrome Extension Popup</title>
+		<link rel="stylesheet" href="popup.css" />
+		<script src="tab2.js" defer></script>
+		<script src="tabs.js" defer></script>
+	</head>
+	<body>
+		<div class="tabs">
+			<button id="tab1" class="tab">tab1</button>
+			<button id="tab2" class="tab">tab2</button>
+			<button id="tab3" class="tab">tab3</button>
+		</div>
+		<div class="container">
+			<h2>Bitwise Calculator</h2>
+			<div class="options">
+				<div>
+					<select id="format">
+						<option value="Binary">Binary [0-1]</option>
+						<option value="Decimal">Decimal [0-9]</option>
+						<option value="Hexadecimal">Hexadecimal [0-F]</option>
+					</select>
+					<select id="operation">
+						<option value="AND">AND (&)</option>
+						<option value="OR">OR (|)</option>
+						<option value="XOR">XOR (^)</option>
+						<option value="NOT">NOT (~)</option>
+					</select>
+				</div>
+
+				<select id="bitCount">
+					<option value="4bit">4bit</option>
+					<option value="8bit">8bit</option>
+					<option value="16bit">16bit</option>
+					<option value="32bit">32bit</option>
+				</select>
+			</div>
+
+			<input type="text" id="num1" placeholder="Enter first number" />
+			<input type="text" id="num2" placeholder="Enter second number" />
+			<p class="result" id="bitwiseResult"></p>
+		</div>
+	</body>
+</html>

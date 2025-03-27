@@ -1,0 +1,119 @@
+html,
+body {
+	width: 300px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f3f4f6;
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	width: 300px;
+}
+
+.result {
+	margin-top: 15px;
+	font-size: 18px;
+	font-weight: bold;
+	min-height: 24px;
+}
+
+.tabs {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	background: #333;
+}
+
+.tab {
+	background: none;
+	border: none;
+	color: white;
+	cursor: pointer;
+	font-size: 14px;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}
+
+.tab:hover {
+	background: #646464;
+}
+
+#charInput {
+	width: 50%;
+}
+
+.table-container {
+	width: 100%;
+	overflow-x: auto;
+	margin-top: 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	border: 1px solid #dddddd;
+	padding: 8px;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+input {
+	padding: 10px;
+	margin: 10px;
+	font-size: 16px;
+	width: 80%;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 16px;
+	outline: none;
+}
+
+.options {
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+select {
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	border-radius: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	text-indent: 1px;
+	text-overflow: "";
+}

@@ -1,0 +1,24 @@
+{
+	"manifest_version": 3,
+	"name": "CS Tools",
+	"icons": {
+		"16": "assets/cpu16.png",
+		"32": "assets/cpu32.png",
+		"48": "assets/cpu48.png",
+		"128": "assets/cpu128.png"
+	},
+	"version": "1.0",
+	"description": "CS Tools is a Chrome extension featuring an ASCII table, Char to ASCII converter, and number system converter for developers and tech enthusiasts.",
+	"action": {
+		"default_popup": "tab1.html",
+		"default_icon": "assets/cpu16.png"
+	},
+	"permissions": ["storage"],
+	"host_permissions": ["http://*/*", "https://*/*"],
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"]
+		}
+	]
+}
