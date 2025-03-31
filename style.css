@@ -198,3 +198,7 @@ label {
 select:hover {
 	border-color: #2563eb;
 }
+
+.title {
+	max-width: 80%;
+}
