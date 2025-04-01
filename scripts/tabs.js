@@ -1,13 +1,13 @@
 document.getElementById("tab1").onclick = (e) => {
-	window.location.href = chrome.runtime.getURL("../number-converter.html");
+	window.location.href = "../number-converter.html"; // Use relative path
 };
 
 document.getElementById("tab2").onclick = (e) => {
-	window.location.href = chrome.runtime.getURL("../bitwise-calculator.html");
+	window.location.href = "../bitwise-calculator.html"; // Use relative path
 };
 
 document.getElementById("tab3").onclick = (e) => {
-	window.location.href = chrome.runtime.getURL("../ascii-converter.html");
+	window.location.href = "../ascii-converter.html"; // Use relative path
 };
 
 document.querySelectorAll("input").forEach((input) => {
