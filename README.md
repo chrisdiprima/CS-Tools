@@ -27,9 +27,20 @@ _The Char to ASCII Converter showing conversion results._
 
 ## Installation
 
-1. Download and install the extension from the Chrome Web Store [here](link_to_chrome_web_store).
+Web Store
+
+1. Download and install the extension from the Chrome Web Store; Search: CS Tools.
 2. Once installed, click on the extension icon in your browser toolbar to start using CS Tools.
 3. Use the tools directly in the extension popup for quick conversions and calculations.
+
+Locally
+
+1. **Clone the repository**
+2. Open Google Chrome and go to: chrome://extensions/
+3. Enable Developer mode using the toggle in the top right corner.
+4. Click "Load unpacked"
+5. Select the root directory (containing manifest.json)
+6. The extension should now be loaded and active!
 
 ---
 
@@ -40,7 +51,3 @@ _The Char to ASCII Converter showing conversion results._
 3. **Char to ASCII Converter**: Enter a character and immediately get its ASCII code, or input an ASCII code to get the corresponding character.
 
 ---
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
