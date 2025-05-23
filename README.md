@@ -15,13 +15,10 @@ Perfect for anyone working with text encoding, programming, or just exploring nu
 ## Screenshots
 
 ![Screenshot 1](assets/screenshot1.png)<br>
-_Example of Number System Converter in action._
 
 ![Screenshot 2](assets/screenshot2.png)<br>
-_Using the Bitwise Calculator for operations like AND, OR, and XOR._
 
 ![Screenshot 3](assets/screenshot3.png)<br>
-_The Char to ASCII Converter showing conversion results._
 
 ---
 
